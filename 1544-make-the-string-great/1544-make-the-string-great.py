@@ -3,7 +3,7 @@ class Solution:
 
         #implementing own lower function
         def lower(c):
-            # we know its a upper case if its greater than ord(a)
+            # we know its a upper case if its lesser than ord(a)
             if ord(c) < ord('a'): # or we can use ord(c) > ord('z')
                 delta = ord(c) - ord('A')
                 lower_chr = chr(ord('a') + delta)
