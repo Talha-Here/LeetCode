@@ -18,3 +18,4 @@ class Solution:
             n = n & (n-1)
             res += 1
         return res
+# T.C & S.C = O(1)
