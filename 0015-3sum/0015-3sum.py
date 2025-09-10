@@ -21,7 +21,7 @@ class Solution:
                     res.append([nums[i], nums[j], nums[k]])
                     j += 1
                     while j < k and nums[j] == nums[j-1]: # checking for duplicates 
-                        l += 1
+                        j += 1
         return res
 
 # Time : NlogN + O(n^2) ==> O(n^2)
