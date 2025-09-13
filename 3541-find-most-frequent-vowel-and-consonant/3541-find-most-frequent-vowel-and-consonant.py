@@ -9,3 +9,5 @@ class Solution:
                 con = max(con, v)  
         return vow+con
         
+# Time: O(n)
+# Space: O(1)
